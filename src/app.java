@@ -13,9 +13,9 @@ public class app {
             e.printStackTrace();
             System.exit(1);
         }
-        
-        int arg0 = Integer.parseInt(args[0]);
-        int arg1 = Integer.parseInt(args[1]);
+
+        int arg0 = Integer.parseInt(args[0]); //The day
+        int arg1 = Integer.parseInt(args[1]); //The problem for this day (1 or 2)
  
         switch(arg0) {
             case 1:
