@@ -11,8 +11,7 @@ public class Lucka1 {
     }
 
     public int solve1() {
-        int res = 0;
-        int currentElf = 0;
+        int res = 0, currentElf = 0;
         String read;
 
         while(sc.hasNextLine()) {
@@ -32,7 +31,6 @@ public class Lucka1 {
 
     public int solve2() {
         String read;
-
         int currentElf = 0, top1 = 0, top2 = 0, top3 = 0;
 
         while(sc.hasNextLine()) {
