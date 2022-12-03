@@ -37,6 +37,15 @@ public class app {
                     Lucka2 lucka = new Lucka2(sc);
                     System.out.println(lucka.solve2());
                 }
+            case 3:
+                if(arg1 == 1) {
+                    Lucka3 lucka = new Lucka3(sc);
+                    System.out.println(lucka.solve1());
+                }
+                else {
+                    Lucka3 lucka = new Lucka3(sc);
+                    //System.out.println(lucka.solve2());
+                }
         }
     }
 
