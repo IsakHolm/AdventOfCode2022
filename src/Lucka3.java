@@ -40,4 +40,28 @@ public class Lucka3 {
         return res;
     }
 
+    private char findCommonChar(String s1, String s2, String s3) {
+        char[] c1 = s1.toCharArray(), c2 = s2.toCharArray(), c3 = s3.toCharArray();
+        for(char c : c1) {
+            for(char d : c2) {
+                if(c == d) {
+                    for(char e : c3) {
+                        if(e == d) return e;
+                    }
+                }
+            }
+        }
+        return ' ';
+    }
+
+    public int solve2() {
+        int res = 0;
+        char common;
+        while(sc.hasNextLine()) {
+            common = findCommonChar(sc.nextLine(), sc.nextLine(), sc.nextLine());
+            res += getPriority(common);
+        }
+        return res;
+    }
+
 }

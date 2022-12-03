@@ -44,7 +44,7 @@ public class app {
                 }
                 else {
                     Lucka3 lucka = new Lucka3(sc);
-                    //System.out.println(lucka.solve2());
+                    System.out.println(lucka.solve2());
                 }
         }
     }
