@@ -33,8 +33,18 @@ public class Lucka4 {
         return res;
     }
 
+    // Do the sets intersect?
+    public boolean overlap(int a1, int a2, int b1, int b2) {
+        return a1 >= b1 && a1 <= b2 || a2 >= b1 && a2 <= b2;
+    }
+
     public int solve2() {
         int res = 0;
+        int[] arr;
+        while(sc.hasNextLine()) {
+            arr = getNumbers(sc.nextLine());
+            if(overlap(arr[0], arr[1], arr[2], arr[3]) || overlap(arr[2], arr[3], arr[0], arr[1])) res++;
+        }
         return res;
     }
 
