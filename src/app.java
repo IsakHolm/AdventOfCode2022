@@ -20,58 +20,67 @@ public class app {
         switch(arg0) {
             case 1:
                 if(arg1 == 1) {
-                    Lucka1 lucka = new Lucka1(sc);
-                    System.out.println(lucka.solve1());
+                    Day1 day = new Day1(sc);
+                    System.out.println(day.solve1());
                 }
                 else {
-                    Lucka1 lucka = new Lucka1(sc);
-                    System.out.println(lucka.solve2());
+                    Day1 day = new Day1(sc);
+                    System.out.println(day.solve2());
                 }
                 break;
             case 2:
                 if(arg1 == 1) {
-                    Lucka2 lucka = new Lucka2(sc);
-                    System.out.println(lucka.solve1());
+                    Day2 day = new Day2(sc);
+                    System.out.println(day.solve1());
                 }
                 else {
-                    Lucka2 lucka = new Lucka2(sc);
-                    System.out.println(lucka.solve2());
+                    Day2 day = new Day2(sc);
+                    System.out.println(day.solve2());
                 }
             case 3:
                 if(arg1 == 1) {
-                    Lucka3 lucka = new Lucka3(sc);
-                    System.out.println(lucka.solve1());
+                    Day3 day = new Day3(sc);
+                    System.out.println(day.solve1());
                 }
                 else {
-                    Lucka3 lucka = new Lucka3(sc);
-                    System.out.println(lucka.solve2());
+                    Day3 day = new Day3(sc);
+                    System.out.println(day.solve2());
                 }
             case 4:
                 if(arg1 == 1) {
-                    Lucka4 lucka = new Lucka4(sc);
-                    System.out.println(lucka.solve1());
+                    Day4 day = new Day4(sc);
+                    System.out.println(day.solve1());
                 }
                 else {
-                    Lucka4 lucka = new Lucka4(sc);
-                    System.out.println(lucka.solve2());
+                    Day4 day = new Day4(sc);
+                    System.out.println(day.solve2());
                 }
             case 5:
                 if(arg1 == 1) {
-                    Lucka5 lucka = new Lucka5(sc);
-                    System.out.println(lucka.solve1());
+                    Day5 day = new Day5(sc);
+                    System.out.println(day.solve1());
                 }
                 else {
-                    Lucka5 lucka = new Lucka5(sc);
-                    System.out.println(lucka.solve2());
+                    Day5 day = new Day5(sc);
+                    System.out.println(day.solve2());
                 }
             case 6:
                 if(arg1 == 1) {
-                    Lucka6 lucka = new Lucka6(sc);
-                    System.out.println(lucka.solve1());
+                    Day6 day = new Day6(sc);
+                    System.out.println(day.solve1());
                 }
                 else {
-                    Lucka6 lucka = new Lucka6(sc);
-                    System.out.println(lucka.solve2());
+                    Day6 day = new Day6(sc);
+                    System.out.println(day.solve2());
+                }
+            case 7:
+                if(arg1 == 1) {
+                    Day7 day = new Day7(sc);
+                    System.out.println(day.solve1());
+                }
+                else {
+                    Day7 day = new Day7(sc);
+                    System.out.println(day.solve2());
                 }
         }
     }

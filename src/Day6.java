@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Lucka6 {
+public class Day6 {
 
     private Scanner sc;
 
-    public Lucka6(Scanner sc) {
+    public Day6(Scanner sc) {
         this.sc = sc;
     }
 

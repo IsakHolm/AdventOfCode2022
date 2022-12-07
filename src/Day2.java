@@ -1,12 +1,10 @@
-import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Scanner;
 
-public class Lucka2 {
+public class Day2 {
 
     private Scanner sc;
 
-    public Lucka2(Scanner sc) {
+    public Day2(Scanner sc) {
         this.sc = sc;
     }
 

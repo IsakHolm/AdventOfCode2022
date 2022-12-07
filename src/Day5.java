@@ -1,13 +1,12 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Lucka5 {
+public class Day5 {
 
     private Scanner sc;
 
-    public Lucka5(Scanner sc) {
+    public Day5(Scanner sc) {
         this.sc = sc;
     }
 
