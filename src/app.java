@@ -55,6 +55,15 @@ public class app {
                     Lucka4 lucka = new Lucka4(sc);
                     System.out.println(lucka.solve2());
                 }
+            case 5:
+                if(arg1 == 1) {
+                    Lucka5 lucka = new Lucka5(sc);
+                    System.out.println(lucka.solve1());
+                }
+                else {
+                    Lucka5 lucka = new Lucka5(sc);
+                    System.out.println(lucka.solve2());
+                }
         }
     }
 
