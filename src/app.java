@@ -82,6 +82,24 @@ public class app {
                     Day7 day = new Day7(sc);
                     System.out.println(day.solve2());
                 }
+            case 8:
+                if(arg1 == 1) {
+                    Day8 day = new Day8(sc);
+                    System.out.println(day.solve1());
+                }
+                else {
+                    Day8 day = new Day8(sc);
+                    System.out.println(day.solve2());
+                }
+            case 9:
+                if(arg1 == 1) {
+                    Day9 day = new Day9(sc);
+                    System.out.println(day.solve1());
+                }
+                else {
+                    Day9 day = new Day9(sc);
+                    System.out.println(day.solve2());
+                }
         }
     }
 
