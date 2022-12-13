@@ -109,6 +109,15 @@ public class app {
                     Day10 day = new Day10(sc);
                     System.out.println(day.solve2());
                 }
+            case 11:
+                if(arg1 == 1) {
+                    Day11 day = new Day11(sc);
+                    System.out.println(day.solve1());
+                }
+                else {
+                    Day11 day = new Day11(sc);
+                    System.out.println(day.solve2());
+                }
         }
     }
 
